@@ -14,7 +14,7 @@ interface PerguntaComMensagem extends Pergunta {
 function Portugues() {
   const perguntas: PerguntaComMensagem[] = [
     {
-      pergunta: "O que é fonema?",
+      pergunta: "O que é fonema   ?",
       respostasErradas: [
         "Representação grafica de um som",
         "2 letras com um som",
