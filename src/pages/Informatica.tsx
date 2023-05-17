@@ -14,44 +14,15 @@ interface PerguntaComMensagem extends Pergunta {
 function Informatica
 () {
   const perguntas: PerguntaComMensagem[] = [
-    {
-      pergunta: 'O que é fonema?',
-      respostasErradas: ['Representação grafica de um som', '2 letras com um som'],
-      respostaCorreta: 'Unidade Sonora para formar palavras',
-      mensagem: 'Unidade Sonora para formar palavras',
-      mensagensErradas: {
-        'Representação grafica de um som': 'Representação grafica de um som é uma letra',
-        '2 letras com um som': '2 letras com um som é um digrafo nasal.',
-      },
-    },
-    {
-        pergunta: 'O que é digrafo nasal?',
-        respostasErradas: ['Unidade Sonora para formar palavras', 'Representação grafica de um som'],
-        respostaCorreta: '2 letras com um som Ex: CH, SC, LH',
-        mensagem: 'é digrafo nasal',
-        mensagensErradas: {
-          'Unidade Sonora para formar palavras': 'é fonema',
-          'Representação grafica de um som': 'Representação grafica de um som é uma letra',
-        },
-    },
-    {
-      pergunta: 'O que é digrafo encontro consonantal?',
-      respostasErradas: ['Unidade Sonora para formar palavras', '2 letras com um som'],
-      respostaCorreta: '2 fonemas em uma palavra: ex: BRado, CLaro, aDVento',
-      mensagem: 'é digrafo nasal',
-      mensagensErradas: {
-        'Unidade Sonora para formar palavras': 'é fonema',
-        '2 letras com um som': '2 letras com um som é um digrafo nasal.',
-      },
-  },
   {
-    pergunta: 'quais palavras sao ditongo ?',
-    respostasErradas: ['Uruguai, Saguão, iguais', 'saúde, caótico'],
-    respostaCorreta: 'imóveis, azeite, meu',
-    mensagem: '1 vogal e uma semivogal',
+    pergunta: 'Um conjunto de unidades processadoras interconectadas que permite, inclusive, o compartilhamento de recursos tais como impressoras, discos, entre outros, denomina-se:',
+    respostasErradas: ['Time Sharing', 'Compartilhamento do Windows', 'Interligação de Redes de Computadores'],
+    respostaCorreta: 'Redes de Computadores',
+    mensagem: 'quando a banca diz “um conjunto de unidades processadoras”, ela só está usando um nome técnico para “um conjunto de computadores”. Portanto, um conjunto de computadores interconectados que permite o compartilhamento de recursos tais como impressoras, discos, entre outros, só pode ser uma... rede de computadores',
     mensagensErradas: {
-      'Uruguai, Saguão, iguais': 'uma vogal entre 2 semivogais = tritongo',
-      'saúde, caótico': 'encontro de vogais em silabas diferentes, Hiato = sa-ú-de, ca-ó-ti-co',
+      'Interligação de Redes de Computadores': 'quando a banca diz “um conjunto de unidades processadoras”, ela só está usando um nome técnico para “um conjunto de computadores”. Portanto, um conjunto de computadores interconectados que permite o compartilhamento de recursos tais como impressoras, discos, entre outros, só pode ser uma... rede de computadores',
+      'Compartilhamento do Windows': 'quando a banca diz “um conjunto de unidades processadoras”, ela só está usando um nome técnico para “um conjunto de computadores”. Portanto, um conjunto de computadores interconectados que permite o compartilhamento de recursos tais como impressoras, discos, entre outros, só pode ser uma... rede de computadores',
+      'Time Sharing': 'quando a banca diz “um conjunto de unidades processadoras”, ela só está usando um nome técnico para “um conjunto de computadores”. Portanto, um conjunto de computadores interconectados que permite o compartilhamento de recursos tais como impressoras, discos, entre outros, só pode ser uma... rede de computadores',
     },
 },
   ];
