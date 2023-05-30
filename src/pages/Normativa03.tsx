@@ -17,8 +17,8 @@ function Normativa03() {
       pergunta: "A hierarquia prevista na inst normativa 03 - SAP fundamentasse em: (Hierarquia funcional, discuplina e defesa direitos/garantiass da pessoa humana) ?",
       respostasErradas: ["falsa"],
       respostaCorreta: "verdadeira",
-      mensagem: "[CORRETA] SAP fundamentasse em: (Hierarquia funcional, discuplina e defesa direitos/garantiass da pessoa humana) ", mensagensErradas: {
-        "falsa": "Errada - SAP fundamentasse em: (Hierarquia funcional, discuplina e defesa direitos/garantiass da pessoa humana) ",
+      mensagem: "[CORRETA] SAP fundamentasse em: (Hierarquia funcional, discuplina e defesa direitos/garantiass da pessoa humana)", mensagensErradas: {
+        "falsa": "Errada - SAP fundamentasse em: (Hierarquia funcional, discuplina e defesa direitos/garantiass da pessoa humana)",
       },
     },
   ];
