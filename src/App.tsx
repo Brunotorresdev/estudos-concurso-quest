@@ -7,6 +7,7 @@ import Administrativo from './pages/Administrativo';
 import Constitucional from './pages/Constitucional';
 import Home from './pages/Home';
 import LeiDrogas from './pages/LeiDrogas';
+import DireitosHumanos from './pages/DireitosHumanos';
 
 function App() {
 
@@ -20,6 +21,8 @@ function App() {
         <Route path='/transito' element={<Portugues />} />
         <Route path='/administrativo' element={<Administrativo />} />
         <Route path='/lei-drogas' element={<LeiDrogas />} />
+        <Route path='/direitos-humanos' element={<DireitosHumanos />} />
+        <Route path='/normativa-03' element={<DireitosHumanos />} />
     </Routes>
     </BrowserRouter>
   );

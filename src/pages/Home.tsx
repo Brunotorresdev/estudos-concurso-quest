@@ -22,6 +22,12 @@ const Home = () => {
       <Link to="/lei-drogas" className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded mb-4">
       Lei de drogas
       </Link>
+      <Link to="/direitos-humanos" className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded mb-4">
+      Direitos Humanos
+      </Link>
+      <Link to="/normativa-03" className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded mb-4">
+      Normativa 03
+      </Link>
     </div>
   );
 };
