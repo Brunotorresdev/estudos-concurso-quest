@@ -8,6 +8,7 @@ import Constitucional from './pages/Constitucional';
 import Home from './pages/Home';
 import LeiDrogas from './pages/LeiDrogas';
 import DireitosHumanos from './pages/DireitosHumanos';
+import Normativa03 from './pages/Normativa03';
 
 function App() {
 
@@ -22,7 +23,7 @@ function App() {
         <Route path='/administrativo' element={<Administrativo />} />
         <Route path='/lei-drogas' element={<LeiDrogas />} />
         <Route path='/direitos-humanos' element={<DireitosHumanos />} />
-        <Route path='/normativa-03' element={<DireitosHumanos />} />
+        <Route path='/normativa-03' element={<Normativa03 />} />
     </Routes>
     </BrowserRouter>
   );
