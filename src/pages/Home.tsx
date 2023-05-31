@@ -16,9 +16,9 @@ const Home = () => {
       <Link to="/constitucional" className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded mb-4">
       constitucional
       </Link>
-      <Link to="/transito" className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded mb-4">
+      {/* <Link to="/transito" className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded mb-4">
       transito
-      </Link>
+      </Link> */}
       <Link to="/lei-drogas" className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded mb-4">
       Lei de drogas
       </Link>
@@ -27,6 +27,9 @@ const Home = () => {
       </Link>
       <Link to="/normativa-03" className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded mb-4">
       Normativa 03
+      </Link>
+      <Link to="/regime-disciplinar" className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded mb-4">
+      Regime disciplinar 258/2021
       </Link>
     </div>
   );

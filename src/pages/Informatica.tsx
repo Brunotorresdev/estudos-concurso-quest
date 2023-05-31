@@ -190,8 +190,137 @@ function Informatica
         "verdadeira": " Tanto roteadores quanto switches podem trabalhar em unicast. O equipamento que encaminha pacotes a todos os equipamentos que estão conectados a ele – em broadcast – é o hub. ",
       },
     },
+
+    {
+      pergunta: "(CESPE / CODEVASF – 2021) O POP3 é um protocolo utilizado para serviços de correio eletrônico e tem a função de transporte no envio de emails do cliente para o destinatário",
+      respostasErradas: ["verdadeira"],
+      respostaCorreta: "falsa",
+      mensagem: "[CORRETA] “ O protocolo utilizado para envio de e-mails é o SMTP; POP3 é utilizado para recebimento. ", mensagensErradas: {
+        "verdadeira": " O protocolo utilizado para envio de e-mails é o SMTP; POP3 é utilizado para recebimento. ",
+      },
+    },
+
+    {
+      pergunta: "(CESPE / ME – 2020) Spam é uma funcionalidade do SMTP que permite o recebimento de emails de clientes e a sua retransmissão para outro servidor SMTP",
+      respostasErradas: ["verdadeira"],
+      respostaCorreta: "falsa",
+      mensagem: "[CORRETA] “ Não se trata de uma funcionalidade e, sim, de uma prática de enviar e-mails não solicitados – são os famosos e-mails indesejados geralmente com alguma propaganda. ", mensagensErradas: {
+        "verdadeira": " Não se trata de uma funcionalidade e, sim, de uma prática de enviar e-mails não solicitados – são os famosos e-mails indesejados geralmente com alguma propaganda. ",
+      },
+    },
+
+    {
+      pergunta: "(CESPE / PRF – 2019) As versões mais modernas dos navegadores Chrome, Firefox e Edge reconhecem e suportam, em instalação padrão, os protocolos de Internet FTP, SMTP e NNTP, os quais implementam, respectivamente, aplicações de transferência de arquivos, correio eletrônico e compartilhamento de notícias.",
+      respostasErradas: ["verdadeira"],
+      respostaCorreta: "falsa",
+      mensagem: "[CORRETA] “FTP é um protocolo para transferência de arquivos suportado pelos navegadores modernos; NNTP é um protocolo utilizado em recursos de grupos de discussão suportado por clientes de e-mail e, não, por navegadores modernos; SMTP é um protocolo para envio de e-mail suportado por clientes de e-mail e, não, por navegadores modernos. ", mensagensErradas: {
+        "verdadeira": "FTP é um protocolo para transferência de arquivos suportado pelos navegadores modernos; NNTP é um protocolo utilizado em recursos de grupos de discussão suportado por clientes de e-mail e, não, por navegadores modernos; SMTP é um protocolo para envio de e-mail suportado por clientes de e-mail e, não, por navegadores modernos. ",
+      },
+    },
+
+    {
+      pergunta: "(CESPE / MPC-PA – 2019) O protocolo TCP possui uma série de camadas que segmentam as funções de trabalho desse protocolo. A esse respeito, se o protocolo SMTP for consumido, ele deverá operar na camada de:",
+      respostasErradas: ["rede", "enlace", "Internet", "transporte"],
+      respostaCorreta: "aplicação",
+      mensagem: "[CORRETA] É estranha essa utilização do verbo “consumir”, mas o que a questão quer saber é em qual camada funciona o SMTP. Logo, trata-se da camada de aplicação. ",
+      mensagensErradas: {
+        "rede": "É estranha essa utilização do verbo “consumir”, mas o que a questão quer saber é em qual camada funciona o SMTP. Logo, trata-se da camada de aplicação.",
+        "enlace": "É estranha essa utilização do verbo “consumir”, mas o que a questão quer saber é em qual camada funciona o SMTP. Logo, trata-se da camada de aplicação.",
+        "Internet": "É estranha essa utilização do verbo “consumir”, mas o que a questão quer saber é em qual camada funciona o SMTP. Logo, trata-se da camada de aplicação.",
+        "transporte": "É estranha essa utilização do verbo “consumir”, mas o que a questão quer saber é em qual camada funciona o SMTP. Logo, trata-se da camada de aplicação.",
+      },
+    },
+
+    {
+      pergunta: "(CESPE / PGE-PE – 2019) O envio de uma mensagem eletrônica que contenha texto e um arquivo anexado é realizado mediante dois protocolos: SMTP (Simple Mail Transfer Protocol), para o texto, e FTP (File Transfer Protocol), para o arquivo",
+      respostasErradas: ["verdadeira"],
+      respostaCorreta: "falsa",
+      mensagem: "[CORRETA] “Nós vimos que não é necessário utilizar FTP para enviar arquivos em um e-mail. O SMTP permite o envio de arquivos anexados por meio de um protocolo chamado MIME. ", mensagensErradas: {
+        "verdadeira": "Nós vimos que não é necessário utilizar FTP para enviar arquivos em um e-mail. O SMTP permite o envio de arquivos anexados por meio de um protocolo chamado MIME. ",
+      },
+    },
+
+    {
+      pergunta: "(CESPE / SLU-DF – 2019) O DHCP disponibiliza IPs de forma automática para computadores em uma rede, por meio de um servidor que fornece informações essenciais, como a máscara de sub-rede e o gateway padrão.",
+      respostasErradas: ["falsa"],
+      respostaCorreta: "verdadeira",
+      mensagem: "[CORRETA] “O DHCP disponibiliza IPs de forma automática para computadores de uma rede? Sim, essa é exatamente a sua função. Por meio de um servidor que fornece informações essenciais, como a máscara de sub-rede e o gateway padrão? Sim, dessa forma o usuário não precisa fazer a configuração manual.", mensagensErradas: {
+        "falsa": "O DHCP disponibiliza IPs de forma automática para computadores de uma rede? Sim, essa é exatamente a sua função. Por meio de um servidor que fornece informações essenciais, como a máscara de sub-rede e o gateway padrão? Sim, dessa forma o usuário não precisa fazer a configuração manual.",
+      },
+    },
+
+    {
+      pergunta: "(CESPE / PM/MA – 2018) O protocolo DNS, entre outras funcionalidades, transforma um nome em um endereço MAC da placa de rede.",
+      respostasErradas: ["verdadeira"],
+      respostaCorreta: "falsa",
+      mensagem: "[CORRETA] “O protocolo DNS (Domain Name System) tem como funcionalidade transformar um Nome de Domínio em Endereços IP e vice-versa. Como seria muito difícil memorizar o endereço IP para cada página ou recurso, nós damos um nome a este endereço por meio da URL (Uniform Resource Locator). ", mensagensErradas: {
+        "verdadeira": "O protocolo DNS (Domain Name System) tem como funcionalidade transformar um Nome de Domínio em Endereços IP e vice-versa. Como seria muito difícil memorizar o endereço IP para cada página ou recurso, nós damos um nome a este endereço por meio da URL (Uniform Resource Locator). ",
+      },
+    },
     
-   
+    {
+      pergunta: "(CESPE / Polícia Federal – 2018) O modelo de referência de rede TCP/IP, se comparado ao modelo OSI, não contempla a implementação das camadas física, de sessão e de apresentação.",
+      respostasErradas: ["falsa"],
+      respostaCorreta: "verdadeira",
+      mensagem: "[CORRETA] “ O último concurso da Polícia Federal decidiu vir cheio de polêmicas! Galera, não é que o modelo de referência TCP/IP não contemple a implementação das camadas física, de sessão e de apresentação. A implementação dessas camadas com seus recursos e funcionalidades está condensada em outras camadas, apenas a sua apresentação como uma camada inexiste no TCP/IP. Está claro que o examinador queria saber se o aluno sabia distinguir as camadas do Modelo TCP/IP e do Modelo OSI, mas a redação da questão gerou essa confusão. Além disso, o próprio CESPE já anulou uma questão por achar que há divergências na literatura quanto à existência ou não da camada física no Modelo TCP/IP.", mensagensErradas: {
+        "falsa": " O último concurso da Polícia Federal decidiu vir cheio de polêmicas! Galera, não é que o modelo de referência TCP/IP não contemple a implementação das camadas física, de sessão e de apresentação. A implementação dessas camadas com seus recursos e funcionalidades está condensada em outras camadas, apenas a sua apresentação como uma camada inexiste no TCP/IP. Está claro que o examinador queria saber se o aluno sabia distinguir as camadas do Modelo TCP/IP e do Modelo OSI, mas a redação da questão gerou essa confusão. Além disso, o próprio CESPE já anulou uma questão por achar que há divergências na literatura quanto à existência ou não da camada física no Modelo TCP/IP.",
+      },
+    },
+
+    {
+      pergunta: "(CESPE / Polícia Federal – 2018) DNS é um protocolo da camada de aplicação que usa o UDP — com o UDP há apresentação entre as entidades remetente e destinatária da camada de transporte antes do envio de um segmento.",
+      respostasErradas: ["verdadeira"],
+      respostaCorreta: "falsa",
+      mensagem: "[CORRETA] “DNS é um protocolo da camada de aplicação? Sim. DNS usa o UDP? Sim. Com o UDP, há apresentação entre as entidades remetente e destinatária da camada de transporte antes do envio de um segmento? O que a questão chama de apresentação entre as entidades remetente e destinatária da camada de transporte antes do envio de um segmento é a conexão. Ora, UDP é orientado à conexão? Não, o protocolo da camada de transporte orientado à conexão é o TCP. ", mensagensErradas: {
+        "verdadeira": "DNS é um protocolo da camada de aplicação? Sim. DNS usa o UDP? Sim. Com o UDP, há apresentação entre as entidades remetente e destinatária da camada de transporte antes do envio de um segmento? O que a questão chama de apresentação entre as entidades remetente e destinatária da camada de transporte antes do envio de um segmento é a conexão. Ora, UDP é orientado à conexão? Não, o protocolo da camada de transporte orientado à conexão é o TCP. ",
+      },
+    },
+
+    {
+      pergunta: "(CESPE / Polícia Rodoviária Federal – 2018) O UDP é utilizado por outros serviços de rede e protocolos, como DNS, NFS, DHCP e SNMP, por serviços de tempo real como streaming de vídeo e VoIP, que são sensíveis ao atraso, porém mais tolerantes a perdas de pacotes, e ainda encontra aplicações em serviços do tipo unicast e multicast.",
+      respostasErradas: ["falsa"],
+      respostaCorreta: "verdadeira",
+      mensagem: "[CORRETA] “O UDP é utilizado por outros serviços de rede e protocolos, como DNS, NFS, DHCP e SNMP, por serviços de tempo real como streaming de vídeo e VoIP? Sim! Esses protocolos e serviços são sensíveis ao atraso? Sim! Esses protocolos e serviços são mais tolerantes a perdas de pacotes? Sim! Esses serviços e protocolos encontram aplicações em serviços do tipo unicast e multicast? Sim, lembrem-se que o TCP trabalha apenas em unicast, mas o UDP trabalha em unicast, multicast ou broadcast.", mensagensErradas: {
+        "falsa": "O UDP é utilizado por outros serviços de rede e protocolos, como DNS, NFS, DHCP e SNMP, por serviços de tempo real como streaming de vídeo e VoIP? Sim! Esses protocolos e serviços são sensíveis ao atraso? Sim! Esses protocolos e serviços são mais tolerantes a perdas de pacotes? Sim! Esses serviços e protocolos encontram aplicações em serviços do tipo unicast e multicast? Sim, lembrem-se que o TCP trabalha apenas em unicast, mas o UDP trabalha em unicast, multicast ou broadcast.",
+      },
+    },
+
+    {
+      pergunta: "(CESPE / BNB – 2018) Diferentemente do SMTP, o protocolo IMAP permite que sejam utilizadas aplicações de acesso a terminal, como o Telnet.",
+      respostasErradas: ["verdadeira"],
+      respostaCorreta: "falsa",
+      mensagem: "[CORRETA] “Tanto o SMTP quanto o IMAP permitem que sejam utilizadas aplicações de acesso a terminal via Telnet.", mensagensErradas: {
+        "verdadeira": "Tanto o SMTP quanto o IMAP permitem que sejam utilizadas aplicações de acesso a terminal via Telnet.",
+      },
+    },
+
+    {
+      pergunta: "Com a criação do protocolo TCP, que é orientado a conexões, o protocolo UDP deixou de ser utilizado.",
+      respostasErradas: ["verdadeira"],
+      respostaCorreta: "falsa",
+      mensagem: "[CORRETA] “Opa... esses protocolos são utilizados em contextos diferentes e se complementam", mensagensErradas: {
+        "verdadeira": "Opa... esses protocolos são utilizados em contextos diferentes e se complementam",
+      },
+    },
+
+    {
+      pergunta: "TCP e UDP são protocolos de transporte orientados à conexão e tem a função de fornecer a entrega confiável de dados a camadas superiores da pilha de protocolos",
+      respostasErradas: ["verdadeira"],
+      respostaCorreta: "falsa",
+      mensagem: "[CORRETA] “TCP e UDP são protocolos de transporte? Sim! Orientados à conexão? Opa... apenas o TCP é orientado à conexão! E tem a função 1. de fornecer a entrega confiável de dados a camadas superiores da pilha de protocolos? Não, apenas o TCP fornece uma entrega confiável de dados", mensagensErradas: {
+        "verdadeira": "TCP e UDP são protocolos de transporte? Sim! Orientados à conexão? Opa... apenas o TCP é orientado à conexão! E tem a função 1. de fornecer a entrega confiável de dados a camadas superiores da pilha de protocolos? Não, apenas o TCP fornece uma entrega confiável de dados",
+      },
+    },
+
+    {
+      pergunta: "TCP e UDP são protocolos de transporte orientados à conexão e tem a função de fornecer a entrega confiável de dados a camadas superiores da pilha de protocolos",
+      respostasErradas: ["verdadeira"],
+      respostaCorreta: "falsa",
+      mensagem: "[CORRETA] “TCP e UDP são protocolos de transporte? Sim! Orientados à conexão? Opa... apenas o TCP é orientado à conexão! E tem a função 1. de fornecer a entrega confiável de dados a camadas superiores da pilha de protocolos? Não, apenas o TCP fornece uma entrega confiável de dados", mensagensErradas: {
+        "verdadeira": "TCP e UDP são protocolos de transporte? Sim! Orientados à conexão? Opa... apenas o TCP é orientado à conexão! E tem a função 1. de fornecer a entrega confiável de dados a camadas superiores da pilha de protocolos? Não, apenas o TCP fornece uma entrega confiável de dados",
+      },
+    },
+    
   ];
 
   return (
