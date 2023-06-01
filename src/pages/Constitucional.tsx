@@ -160,6 +160,214 @@ function Constitucional() {
       "verdadeira": "Essas normas possuem, sim, normatividade. Apresentam eficácia mínima e efeito vinculante desde a sua edição, produzindo, desde logo, os seguintes efeitos: revogação das disposições anteriores em sentido contrário e impedimento da validade de leis posteriores que se opuserem a seus comandos. Questão errada",
     },
   },
+
+  {
+    pergunta: "(TCE-RJ – 2022) A Constituição Federal de 1988 prevê expressamente a defesa da paz como um dos fundamentos da República Federativa do Brasil.",
+    respostasErradas: ["verdadeira"],
+    respostaCorreta: "falsa",
+    mensagem: "[CORRETA] A República Federativa do Brasil, tem como fundamentos = I a soberania; II a cidadania; III a dignidade humana; IV os valores sociais do trabalho e da livre iniciativa. ", mensagensErradas: {
+      "verdadeira": "A República Federativa do Brasil, tem como fundamentos = I a soberania; II a cidadania; III a dignidade humana; IV os valores sociais do trabalho e da livre iniciativa.",
+    },
+  },
+  
+  {
+    pergunta: "(FUB – 2015) O pluralismo político, fundamento da República Federativa do Brasil, é pautado pela tolerância a ideologias diversas, o que exclui discursos de ódio, não amparados pela liberdade de manifestação do pensamento",
+    respostasErradas: ["falsa"],
+    respostaCorreta: "verdadeira",
+    mensagem: "[CORRETA] O discurso de ódio não está protegido pela liberdade de manifestação de pensamento. Por isso, o pluralismo político exclui discursos de ódio. Questão correta. ", mensagensErradas: {
+      "falsa:": "O discurso de ódio não está protegido pela liberdade de manifestação de pensamento. Por isso, o pluralismo político exclui discursos de ódio. Questão correta.",
+  },
+  },
+
+  {
+    pergunta: "A dignidade da pessoa humana, princípio fundamental da República Federativa do Brasil, promove o direito à vida digna em sociedade, em prol do bem comum, fazendo prevalecer o interesse coletivo em detrimento do direito individual.",
+    respostasErradas: ["verdadeira"],
+    respostaCorreta: "falsa",
+    mensagem: "[CORRETA] A dignidade da pessoa humana é um fundamento da República Federativa do Brasil. Enquadra-se como princípio fundamental, assim como todos os outros inscritos dos art. 1º a art. 4º, CF/88. Esse princípio coloca o indivíduo (o ser humano) como a preocupação central do Estado. Assim, não há que se falar em “prevalência do interesse coletivo em detrimento do direito individual”. Questão errada. ", mensagensErradas: {
+      "verdadeira": "A dignidade da pessoa humana é um fundamento da República Federativa do Brasil. Enquadra-se como princípio fundamental, assim como todos os outros inscritos dos art. 1º a art. 4º, CF/88. Esse princípio coloca o indivíduo (o ser humano) como a preocupação central do Estado. Assim, não há que se falar em “prevalência do interesse coletivo em detrimento do direito individual”. Questão errada.",
+    },
+  },
+
+  {
+    pergunta: "A soberania, que consiste em um poder político supremo e independente, é um dos fundamentos da República Federativa do Brasil.",
+    respostasErradas: ["falsa"],
+    respostaCorreta: "verdadeira",
+    mensagem: "[CORRETA] A soberania é um poder que não reconhece nenhum outro acima dele próprio. Pode-se dizer, portanto, que é um poder político supremo e independente. A soberania é um dos fundamentos da República Federativa do Brasil. ", mensagensErradas: {
+      "falsa:": "A soberania é um poder que não reconhece nenhum outro acima dele próprio. Pode-se dizer, portanto, que é um poder político supremo e independente. A soberania é um dos fundamentos da República Federativa do Brasil.",
+  },
+  },
+
+  {
+    pergunta: "(FUB – 2015) O regime político adotado na CF caracteriza a República Federativa do Brasil como um estado democrático de direito em que se conjuga o princípio representativo com a participação direta do povo por meio do voto, do plebiscito, do referendo e da iniciativa popular.",
+    respostasErradas: ["falsa"],
+    respostaCorreta: "verdadeira",
+    mensagem: "[CORRETA] No Brasil, vigora uma democracia semidireta, na qual se conjuga o princípio representativo com a participação direta do povo através do voto, plebiscito, referendo e iniciativa popular.  ", mensagensErradas: {
+      "falsa:": "No Brasil, vigora uma democracia semidireta, na qual se conjuga o princípio representativo com a participação direta do povo através do voto, plebiscito, referendo e iniciativa popular. ",
+  },
+  },
+
+  {
+    pergunta: "(Câmara dos Deputados – 2014) A democracia brasileira é indireta, ou representativa, haja vista que o poder popular se expressa por meio de representantes eleitos, que recebem mandato para a elaboração das leis e a fiscalização dos atos estatais.",
+    respostasErradas: ["verdadeira"],
+    respostaCorreta: "falsa",
+    mensagem: "[CORRETA] No Brasil, vigora uma democracia semidireta. Questão errada. ", mensagensErradas: {
+      "verdadeira": "No Brasil, vigora uma democracia semidireta. Questão errada.",
+    },
+  },
+
+  {
+    pergunta: "(Polícia Federal – 2014) A República Federativa do Brasil, formada pela união indissolúvel dos estados, municípios e Distrito Federal (DF), adota a federação como forma de Estado. ",
+    respostasErradas: ["falsa"],
+    respostaCorreta: "verdadeira",
+    mensagem: "[CORRETA] A forma de Estado adotada pela RFB é a federação. Questão correta.  ", mensagensErradas: {
+      "falsa:": "A forma de Estado adotada pela RFB é a federação. Questão correta. ",
+  },
+  },
+
+  {
+    pergunta: "(TRE-AM – 2014) O Brasil adotou como sistema de governo a República, o presidencialismo como forma de governo e a Federação como forma de Estado",
+    respostasErradas: ["verdadeira"],
+    respostaCorreta: "falsa",
+    mensagem: "[CORRETA] O examinador inverteu as coisas. A forma de governo adotado pelo Brasil é a República; o presidencialismo é o sistema de governo. ", mensagensErradas: {
+      "verdadeira": "O examinador inverteu as coisas. A forma de governo adotado pelo Brasil é a República; o presidencialismo é o sistema de governo.",
+    },
+  },
+
+  {
+    pergunta: "Os OBJETIVOS FUNDAMENTAIS  da republica federativa do brail são: I - construir uma sociedade livre, justa e solidária; II - garantir o desenvolvimento nacional; III - erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais; IV - promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação. ",
+    respostasErradas: ["falsa"],
+    respostaCorreta: "verdadeira",
+    mensagem: "[CORRETA] ", mensagensErradas: {
+      "falsa:": "Errada",
+  },
+  },
+
+  {
+    pergunta: "(FUB – 2022) Entre os princípios constitucionais que regem as relações internacionais do Brasil, insere-se o da não intervenção, cuja pedra basilar é a soberania nacional. Por isso, o Brasil não pode, sozinho ou em grupo com outros países, intervir, direta ou indiretamente, independentemente do motivo, nos assuntos internos ou externos de qualquer outro país. ",
+    respostasErradas: ["verdadeira"],
+    respostaCorreta: "falsa",
+    mensagem: "[CORRETA] O princípio da não-intervenção (inciso IV) é também corolário dos princípios da soberania e da independência nacional, e preconiza que o Brasil não interferirá em assuntos internos de outros Estados. Entretanto, o Brasil poderá, amparado em resoluções das Nações Unidas, participar de missões de paz interventivas, a exemplo do que foi feito no Haiti, por exemplo ", mensagensErradas: {
+      "verdadeira": "O princípio da não-intervenção (inciso IV) é também corolário dos princípios da soberania e da independência nacional, e preconiza que o Brasil não interferirá em assuntos internos de outros Estados. Entretanto, o Brasil poderá, amparado em resoluções das Nações Unidas, participar de missões de paz interventivas, a exemplo do que foi feito no Haiti, por exemplo",
+    },
+  },
+
+  {
+    pergunta: "(SEFAZ-RS – 2019) A solução pacífica dos conflitos é um dos objetivos fundamentais da República Federativa do Brasil.",
+    respostasErradas: ["verdadeira"],
+    respostaCorreta: "falsa",
+    mensagem: "[CORRETA]  A solução pacífica dos conflitos é um princípio das relações internacionais adotados pelo Brasil. ", mensagensErradas: {
+      "verdadeira": " A solução pacífica dos conflitos é um princípio das relações internacionais adotados pelo Brasil.",
+    },
+  },
+
+  {
+    pergunta: "(TRT 6ª Região – 2018) À luz do que dispõe a Constituição Federal quanto aos seus princípios fundamentais, a República Federativa do Brasil tem como um de seus fundamentos a cooperação entre os povos para o progresso da humanidade.",
+    respostasErradas: ["verdadeira"],
+    respostaCorreta: "falsa",
+    mensagem: "[CORRETA]  A cooperação entre os povos para o progresso da humanidade é princípio das relações internacionais (e não fundamento da RFB!) ", mensagensErradas: {
+      "verdadeira": " A cooperação entre os povos para o progresso da humanidade é princípio das relações internacionais (e não fundamento da RFB!)",
+    },
+  },
+
+  {
+    pergunta: "(DP-DF – 2022) Os direitos fundamentais caracterizam-se por seu caráter absoluto, característica que permanece mesmo havendo eventuais colisões entre eles.",
+    respostasErradas: ["verdadeira"],
+    respostaCorreta: "falsa",
+    mensagem: "[CORRETA] Uma das características dos direitos fundamentais é a sua relatividade. Não existem direitos fundamentais de natureza absoluta, já que eles encontram limites nos demais direitos previstos na Constituição. ", mensagensErradas: {
+      "verdadeira": "Uma das características dos direitos fundamentais é a sua relatividade. Não existem direitos fundamentais de natureza absoluta, já que eles encontram limites nos demais direitos previstos na Constituição.",
+    },
+  },
+
+  {
+    pergunta: "(TJ-PR – 2019) Considerando-se o surgimento e a evolução dos direitos fundamentais em gerações, é correto afirmar que o direito ao meio ambiente ecologicamente equilibrado é considerado, pela doutrina, direito de segunda geração.",
+    respostasErradas: ["verdadeira"],
+    respostaCorreta: "falsa",
+    mensagem: "[CORRETA] O direito ao meio ambiente ecologicamente equilibrado é direito de 3ª geração. Questão errada. ", mensagensErradas: {
+      "verdadeira": "O direito ao meio ambiente ecologicamente equilibrado é direito de 3ª geração. Questão errada.",
+    },
+  },
+
+  {
+    pergunta: "(PGE-PE – 2018) Os direitos destinados a assegurar a soberania popular mediante a possibilidade de interferência direta ou indireta nas decisões políticas do Estado são direitos políticos de primeira dimensão ",
+    respostasErradas: ["falsa"],
+    respostaCorreta: "verdadeira",
+    mensagem: "[CORRETA] São direitos de 1ª geração os direitos civis e políticos. Os direitos políticos são aqueles que estão relacionados à participação do indivíduo na vida política do Estado.", mensagensErradas: {
+      "falsa:": "São direitos de 1ª geração os direitos civis e políticos. Os direitos políticos são aqueles que estão relacionados à participação do indivíduo na vida política do Estado.",
+  },
+  },
+
+  {
+    pergunta: "(DPE-PR – 2017) A dimensão subjetiva dos direitos fundamentais resulta de seu significado como princípios básicos da ordem constitucional, fazendo com que os direitos fundamentais influam sobre todo o ordenamento jurídico e servindo como norte de ação para os poderes constituídos.",
+    respostasErradas: ["verdadeira"],
+    respostaCorreta: "falsa",
+    mensagem: "[CORRETA] A dimensão objetiva dos direitos fundamentais é que impõe que estes influam sobre todo o ordenamento jurídico. Nesse sentido, fala-se em “eficácia irradiante” dos direitos fundamentais ", mensagensErradas: {
+      "verdadeira": "A dimensão objetiva dos direitos fundamentais é que impõe que estes influam sobre todo o ordenamento jurídico. Nesse sentido, fala-se em “eficácia irradiante” dos direitos fundamentais",
+    },
+  },
+
+  {
+    pergunta: "Os direitos fundamentais são personalíssimos, de forma que somente a própria pessoa pode a eles renunciar.",
+    respostasErradas: ["verdadeira"],
+    respostaCorreta: "falsa",
+    mensagem: "[CORRETA] Os direitos fundamentais têm como característica a “irrenunciabilidade” ", mensagensErradas: {
+      "verdadeira": "Os direitos fundamentais têm como característica a “irrenunciabilidade”",
+    },
+  },
+
+  {
+    pergunta: "(FUB – 2015) Os direitos fundamentais, considerados como cláusula pétrea das constituições, podem sofrer limitações por ponderação judicial caso estejam em confronto com outros direitos fundamentais, por alteração legislativa, via emenda constitucional, desde que, nesse último caso, seja respeitado o núcleo essencial que os caracteriza.",
+    respostasErradas: ["falsa"],
+    respostaCorreta: "verdadeira",
+    mensagem: "[CORRETA]  É possível, sim, que sejam impostas limitações aos direitos fundamentais, mas desde que seja respeitado o núcleo essencial que os caracteriza. Em um caso concreto no qual haja o conflito entre direitos fundamentais, o juiz irá aplicar a técnica da ponderação (harmonização)", mensagensErradas: {
+      "falsa:": " É possível, sim, que sejam impostas limitações aos direitos fundamentais, mas desde que seja respeitado o núcleo essencial que os caracteriza. Em um caso concreto no qual haja o conflito entre direitos fundamentais, o juiz irá aplicar a técnica da ponderação (harmonização)",
+  },
+  },
+
+  {
+    pergunta: "(TJ-CE – 2018) A exclusão de sócio de associação privada sem fins lucrativos independe do contraditório e da ampla defesa, desde que haja previsão estatutária.",
+    respostasErradas: ["verdadeira"],
+    respostaCorreta: "falsa",
+    mensagem: "[CORRETA] Os direitos fundamentais têm eficácia horizontal, isto é, se aplicam nas relações entre particulares. Assim, na exclusão de sócio de associação privada sem fins lucrativos, devem ser garantidas a ampla defesa e o contraditório. ", mensagensErradas: {
+      "verdadeira": "Os direitos fundamentais têm eficácia horizontal, isto é, se aplicam nas relações entre particulares. Assim, na exclusão de sócio de associação privada sem fins lucrativos, devem ser garantidas a ampla defesa e o contraditório.",
+    },
+  },
+
+  {
+    pergunta: "(PGE-PR – 2015) Os direitos fundamentais assegurados pela Constituição vinculam diretamente só os poderes públicos, estando direcionados mediatamente à proteção dos particulares e apenas em face dos chamados poderes privados.",
+    respostasErradas: ["verdadeira"],
+    respostaCorreta: "falsa",
+    mensagem: "[CORRETA] Os direitos fundamentais têm eficácia horizontal, aplicando-se, também, às relações entre particulares. Destaque-se que, no Brasil, prevalece a tese da eficácia direta e imediata dos direitos fundamentais ", mensagensErradas: {
+      "verdadeira": "Os direitos fundamentais têm eficácia horizontal, aplicando-se, também, às relações entre particulares. Destaque-se que, no Brasil, prevalece a tese da eficácia direta e imediata dos direitos fundamentais",
+    },
+  },
+
+  {
+    pergunta: "(DP-DF – 2022) Os direitos e garantias previstos pela Constituição Federal de 1988 estão dispostos em rol taxativo, em razão da ampla rede de proteção a eles destinada. ",
+    respostasErradas: ["verdadeira"],
+    respostaCorreta: "falsa",
+    mensagem: "[CORRETA] A enumeração constitucional dos direitos e garantias fundamentais não é limitada, taxativa, haja vista que outros poderão ser reconhecidos futuramente, seja por meio de emendas constitucionais ou mesmo mediante normas infraconstitucionais, como os tratados e convenções internacionais de direitos humanos celebrados pelo Brasil. ", mensagensErradas: {
+      "verdadeira": "A enumeração constitucional dos direitos e garantias fundamentais não é limitada, taxativa, haja vista que outros poderão ser reconhecidos futuramente, seja por meio de emendas constitucionais ou mesmo mediante normas infraconstitucionais, como os tratados e convenções internacionais de direitos humanos celebrados pelo Brasil.",
+    },
+  },
+
+  {
+    pergunta: "(CGE-CE – 2019) O rol dos direitos e das garantias fundamentais se esgota nos direitos e deveres individuais, na nacionalidade e nos direitos políticos.",
+    respostasErradas: ["verdadeira"],
+    respostaCorreta: "falsa",
+    mensagem: "[CORRETA] Também se enquadram como direitos e garantias fundamentais os direitos sociais e os direitos relacionados à existência, organização e participação em partidos políticos. ", mensagensErradas: {
+      "verdadeira": "Também se enquadram como direitos e garantias fundamentais os direitos sociais e os direitos relacionados à existência, organização e participação em partidos políticos.",
+    },
+  },
+
+  {
+    pergunta: " (MPU – 2015) Na CF, a classificação dos direitos e garantias fundamentais restringe-se a três categorias: os direitos individuais e coletivos, os direitos de nacionalidade e os direitos políticos.",
+    respostasErradas: ["verdadeira"],
+    respostaCorreta: "falsa",
+    mensagem: "[CORRETA] Pode-se falar, ainda, na existência de outros dois grupos de direitos: os direitos sociais e os direitos relacionados à existência, organização e participação em partidos políticos. ", mensagensErradas: {
+      "verdadeira": "Pode-se falar, ainda, na existência de outros dois grupos de direitos: os direitos sociais e os direitos relacionados à existência, organização e participação em partidos políticos.",
+    },
+  },
+
   ];
 
   return (
