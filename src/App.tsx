@@ -10,6 +10,7 @@ import LeiDrogas from './pages/LeiDrogas';
 import DireitosHumanos from './pages/DireitosHumanos';
 import Normativa03 from './pages/Normativa03';
 import RegimeDisciplinar from './pages/RegimeDisciplinar';
+import Penal from './pages/Penal';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <Route path='/direitos-humanos' element={<DireitosHumanos />} />
         <Route path='/normativa-03' element={<Normativa03 />} />
         <Route path='/regime-disciplinar' element={<RegimeDisciplinar />} />
+        <Route path='/penal' element={<Penal />} />
     </Routes>
     </BrowserRouter>
   );
