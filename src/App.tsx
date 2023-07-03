@@ -8,7 +8,6 @@ import Constitucional from './pages/Constitucional';
 import Home from './pages/Home';
 import LeiDrogas from './pages/LeiDrogas';
 import DireitosHumanos from './pages/DireitosHumanos';
-import Normativa03 from './pages/Normativa03';
 import RegimeDisciplinar from './pages/RegimeDisciplinar';
 import Penal from './pages/Penal';
 
@@ -25,9 +24,9 @@ function App() {
         <Route path='/administrativo' element={<Administrativo />} />
         <Route path='/lei-drogas' element={<LeiDrogas />} />
         <Route path='/direitos-humanos' element={<DireitosHumanos />} />
-        <Route path='/normativa-03' element={<Normativa03 />} />
         <Route path='/regime-disciplinar' element={<RegimeDisciplinar />} />
         <Route path='/penal' element={<Penal />} />
+        <Route path='/especificas' element={<Penal />} />
     </Routes>
     </BrowserRouter>
   );

@@ -34,6 +34,9 @@ const Home = () => {
       <Link to="/penal" className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded mb-4">
       Penal
       </Link>
+      <Link to="/especificas" className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded mb-4">
+      Especificas
+      </Link>
     </div>
   );
 };
